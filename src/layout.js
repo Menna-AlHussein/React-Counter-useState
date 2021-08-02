@@ -33,8 +33,7 @@ const Layout = (props) => {
         <h1 class="display-5 text-dark"> {props.name}</h1>
                   
            <hr/> 
-            <Button onClick={IncrementCount} className="w-100 btn btn-lg btn-dark">Increment Count
-            </Button>
+            <Button onClick={IncrementCount} className="w-100 btn btn-lg btn-dark">Increment Count</Button>
             
             <hr/>
             <Button onClick={DecrementCount} className="w-100 btn btn-lg btn-dark">Decrement Count</Button>
